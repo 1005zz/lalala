@@ -8,7 +8,7 @@ void main(){
 	else if(x>=1&&x<10){
 	printf("%d",2*x-1);
 	}
-	else(x>=10);{
+	else if(x>=10){
 	printf("%d",3*x-11);
 	}
 }
