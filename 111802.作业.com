@@ -1,7 +1,7 @@
 #include<stdio.h>
 void main(){
 int n;
-scanf("%d\n",&n);
+scanf("%d",&n);
 if(n<=-1){
 printf("你还有花呗没还，无法使用该系统");
 }
