@@ -7,9 +7,9 @@ void main(){
 	c=a/60;
 	d=a-b*3600-c*60;
 	if(a>=0&&a<=24*3600-1){
-	printf("0%d:",b);
-	printf("0%d:",c);
-	printf("0%d",d);
+	printf("%02d:",b);
+	printf("%02d:",c);
+	printf("%02d:",d);
 	}
 	else{
 	printf("输入错误，请重新输入");
