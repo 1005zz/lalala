@@ -6,10 +6,12 @@ void main(){
 	b=a/3600;
 	c=a/60;
 	d=a-b*3600-c*60;
-	printf("%d:",b);
-	printf("%d:",c);
-	printf("%d",d);
-
-
-
+	if(a>=0&&a<=24*3600-1){
+	printf("0%d:",b);
+	printf("0%d:",c);
+	printf("0%d",d);
+	}
+	else{
+	printf("输入错误，请重新输入");
+	}
 }
