@@ -6,9 +6,10 @@ void main(){
 	b=a/3600;
 	c=a/60;
 	d=a-b*3600-c*60;
-	printf("%d时",b);
-	printf("%d分",c);
-	printf("%d秒",d);
+	printf("%d:",b);
+	printf("%d:",c);
+	printf("%d",d);
+
 
 
 }
