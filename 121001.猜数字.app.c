@@ -4,13 +4,13 @@ void main(){
 	while(1){
 		char x[10];
 		char n[]="天天向上";
-		printf("“好好学习”的下一句是什么？");
+		printf("“好好学习”的下一句是什么？\n");
 		scanf("%s",&x);
 		if(strcmp(n,x)==0){
 			while(1){
 			int right=13;
 			int user;
-			printf("请输入1-20的数字");
+			printf("请输入1-20的数字\n");
 			scanf("%d",&user);
 			if(user==right){
 			printf("恭喜你，答对了！");
