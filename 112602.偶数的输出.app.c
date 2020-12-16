@@ -2,6 +2,9 @@
 void main(){
 int n;
 for(n=2;n<=1024;n++){
-printf("%d\n",n);
+	if(n%2==0){
+	printf("%d\n",n);
+	}
 }
+
 }
